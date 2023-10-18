@@ -28,19 +28,6 @@ a:hover {
   font-weight: normal;
 }
 
-#britney {
-  position: fixed;
-  left:40px;
-  z-index: 300;
-  top:-80px;
-
-}
-
-#britney img{
-  height:50px; 
-      cursor:pointer;
-}
-
 
 html {
   width: 100%;
@@ -310,17 +297,6 @@ ul {
     width: 100%;
   }
 
-  #britney {
-    position: fixed;
-    left:40px;
-    z-index: 300;
-    top:30px; 
-}
-
-#britney img{
-    height:75px; 
-}
-}
 
 @media only screen and (max-width: 600px) {
   html {
@@ -332,5 +308,6 @@ ul {
     left:30px;
     z-index: 300;
     top:40px; 
+}
 }
 }
