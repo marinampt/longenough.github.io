@@ -56,13 +56,13 @@ body {
   top:0%;
   width: 100%;
   transform: translateX(-50%);
-
+  z-index: 6;
   font-family: Univers, Arial, Helvetica, sans-serif, sans-serif;
   color: black;
   text-align: center;
   font-size: 0.5em;
   background-color: #ccd9f0;
-  background-image: linear-gradient(to right, black 15%, rgba(255,255,255,0) 0%);
+  background-image: linear-gradient(to right, black 100%, rgba(255,255,255,0) 0%);
   background-position: bottom;
   background-size: 50px .75px;
   background-repeat: repeat-x;
@@ -88,16 +88,19 @@ body {
 }
 
 .menu {
+  z-index: 10;
   display: flex;
-  display: none;
+  display: none;  
   justify-content: space-between;
   padding-top: 2vh;
   padding-bottom: 2vh;
   background-color: #ffffff;
-  background-image: linear-gradient(to right, black 15%, rgba(255,255,255,0) 0%);
+  background-image: linear-gradient(to right, black 100%, rgba(255,255,255,0) 0%);
   background-position: top;
   background-size: 50px .5px;
   background-repeat: repeat-x;
+
+
 }
 
 .tableofcontents {
@@ -108,6 +111,7 @@ body {
   transform: translateX(-50%);
   font-family: Univers, Arial, Helvetica, sans-serif, sans-serif;
   color: black;
+  z-index: 10;
   text-align: center;
   font-size: 0.7em;
   background-color: #ffffff;
@@ -244,6 +248,7 @@ ul {
 
 /* Slideshow container */
 .slideshow-container {
+  z-index: 0;
   max-width: 100%;
   position: relative;
   margin: auto;
