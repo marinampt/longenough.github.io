@@ -45,10 +45,7 @@ body {
   overflow-y: hidden;
 }
 
-/* =========================
-      TITLE SECTION
-=========================== */
-
+/*TITLE*/
 .title {
   position: fixed;
   padding: 2%;
@@ -99,8 +96,6 @@ body {
   background-position: top;
   background-size: 50px .5px;
   background-repeat: repeat-x;
-
-
 }
 
 .tableofcontents {
@@ -130,10 +125,6 @@ a.anchor {
   visibility: hidden;
 }
 
-/* =========================
-      GIF BOX SECTION
-=========================== */
-
 audio {
   display: none;
 }
@@ -142,7 +133,6 @@ audio {
   position: relative;
   width: 100%;
   z-index: -9999;
-  /* display: none; */
 }
 
 *.gifbox > img {
@@ -150,14 +140,12 @@ audio {
   background-color: #ccd9f0; 
 }
 
-/* =========================
-      MAIN TEXT SECTION
-=========================== */
+/*MAIN TEXT SECTION*/
 .infobox {
   margin: auto;
   left: 0;
   right: 0;
-  padding-top: 15vh; /* compensate for the fixed title */
+  padding-top: 15vh; 
   padding-left: 25vw;
   padding-right: 25vw;
   padding-bottom: 10vh;
@@ -227,11 +215,7 @@ ul {
   padding: 6vw;
 }
 
-/* =========================
-      SLIDESHOW
-=========================== */
-
-
+/*SLIDESHOW*/
 * {box-sizing:border-box;}
 
 /* Next & previous buttons */
@@ -285,10 +269,7 @@ ul {
 }
 
 
-/* =========================
-      RESPONSIVE SECTION
-=========================== */
-
+/*RESPONSIVE SECTION*/
 @media only screen and (max-width: 900px) {
   html {
     font-size: 16px;
@@ -307,12 +288,5 @@ ul {
   html {
     font-size: 16px;
   }
-
-  #britney {
-    position: fixed;
-    left:30px;
-    z-index: 300;
-    top:40px; 
-}
 }
 }

@@ -1,7 +1,5 @@
-
-
-var colour="white"; // "random" can be replaced with any valid colour ie: "red"...
-var sparkles=1000;// increase of decrease for number of sparkles falling
+var colour="white"; 
+var sparkles=1000;
 
 var x=ox=400;
 var y=oy=300;
